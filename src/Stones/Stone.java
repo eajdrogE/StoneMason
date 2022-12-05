@@ -1,42 +1,48 @@
-
+package Stones;
 
 public abstract class Stone implements Comparable<Stone>{
 
-    protected  int value;
-    protected static boolean precious;
+   private   int value;
+    private  boolean precious;
+    private  double weightOfStone;//in carat
+    private  int clarityOfStone;
 
-    protected static double weightOfStone;//in carat
+    private  String typeOfStone;
 
-    protected static int clarityOfStone;
 
-    protected static String typeOfStone;
-    @Override
     public int getValue() {
+
         return value;
     }
     public void setValue(int value) {
+
         this.value = value;
     }
     public String getPrecious() {
        if (precious) return "precious";
        else return "semiprecious";
     }
-    public void setPrecious(int value) {
-        this.value = value;
+    public void setPrecious(boolean precious) {
+        this.precious = precious;
     }
-    public double getWeight() {
+    public double getWeightOfStone() {
         return weightOfStone;
     }
     public void setWeight(double weightOfStone) {
         this.weightOfStone = weightOfStone;
     }
-    public int getValue() {
-        return value;
+    public int getClarityOfStone() {
+        return clarityOfStone;
     }
-    public void setValue(int value) {
-        this.value = value;
+    public void setClarity (int clarityOfStone) {
+        this.clarityOfStone = clarityOfStone;
     }
-
+    public String getTypeOfStone() {
+        return typeOfStone;
+    }
+    public void setTypeStone(String typeOfStone) {
+        this.typeOfStone = typeOfStone;
+    }
     public String toString() {
         return "Stone{" +
                 "type = " + Stone.getTypeOfStone() +
@@ -46,8 +52,8 @@ public abstract class Stone implements Comparable<Stone>{
                 " rangeOfFlight = " + Stone.getValue() +'}';
     }
 
-    public int compareTo(Stone stone){
-        return Stone.rangeOfFlight - Stone.getRangeOfFlight();
-    }
+    //public int compareTo(Stone stone){
+  //      return Stone.clarityOfStone - Stone.getClarityOfStone();
+ //   }
     public Stone(){}
 }

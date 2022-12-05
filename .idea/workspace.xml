@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="773cc479-094c-46b7-8ce2-041f168e7129" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StoneMason.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stones/Amber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stones/Diamond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stones/Pearl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Necklace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stone.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -59,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670237741872</updated>
       <workItem from="1670237743215" duration="2072000" />
-      <workItem from="1670239943360" duration="1504000" />
+      <workItem from="1670239943360" duration="7577000" />
     </task>
     <servers />
   </component>
